@@ -1,0 +1,29 @@
+{
+  "name": "patientor-backend",
+  "version": "1.0.0",
+  "description": "Patientor backend API",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-transform-types src/index.ts",
+    "dev": "node --watch --experimental-transform-types src/index.ts",
+    "lint": "eslint .",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.0",
+    "express": "^5.2.1",
+    "uuid": "^11.0.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/cors": "^2.8.5",
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.0.0",
+    "@types/uuid": "^10.0.0",
+    "eslint": "^10.1.0",
+    "typescript": "^6.0.2",
+    "typescript-eslint": "^8.57.2"
+  }
+}
